@@ -1,0 +1,132 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #4cae4c;
+}
+
+h2 {
+    color: black;
+    padding: 10px 0;
+}
+
+p {
+    color: red;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.dashboard-container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    width: 100%;
+}
+
+.userContainer {
+    color: green;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1
+}
+
+table.greyGridTable {
+    border: 2px solid #FFFFFF;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+table.greyGridTable td,
+table.greyGridTable th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 4px;
+}
+
+table.greyGridTable tbody td {
+    font-size: 13px;
+}
+
+table.greyGridTable td:nth-child(even) {
+    background: #EBEBEB;
+}
+
+table.greyGridTable thead {
+    background: #FFFFFF;
+    border-bottom: 4px solid #333333;
+}
+
+table.greyGridTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+}
+
+table.greyGridTable thead th:first-child {
+    border-left: none;
+}
+
+table.greyGridTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+}
+
+table.greyGridTable tfoot td {
+    font-size: 14px;
+}
